@@ -1,3 +1,6 @@
+# the install havabol directory if there
+/installHavaBol/
+
 # ignore all .class files #
 /bin/
 *.class
