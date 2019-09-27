@@ -1,5 +1,0 @@
-#!/bin/bash
-
-java -classpath /etc/Interpreter/bin havabol.HavaBol $1
-
-
