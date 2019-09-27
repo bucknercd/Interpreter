@@ -56,5 +56,3 @@ ie.     $ ./hav helloworld.hav
 **Also the programmer Manual for HavaBol is under the Interpreter directory **
 
 /etc/Interpreter/HavaBolManual.docx
-
-Use libre office to open it
