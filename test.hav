@@ -1,5 +1,4 @@
-# simple test hav program
-
+#!/usr/bin/hav
 String name = "Ludovico";
 String correct_spelling = "Ludovico";
 

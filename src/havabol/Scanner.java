@@ -351,7 +351,7 @@ public class Scanner {
         for (i = 0; i < this.buffer.length(); i++)
         {
             char c = this.buffer.charAt(i);
-            if (c == '/' && this.buffer.charAt(i+1) == '/')
+            if ( (c == '/' && this.buffer.charAt(i+1) == '/') || (c == '#' && this.buffer.charAt(i+1) == '!') )
             {
                 this.aComment = true;
                 i++;
@@ -410,7 +410,7 @@ public class Scanner {
                     // if first char in our run thru the remaining buffer
                     if (i == 0)
                     {
-                        if (this.buffer.charAt(0) == '/' && this.buffer.charAt(1) == '/')
+                        if ( (this.buffer.charAt(0) == '/' && this.buffer.charAt(1) == '/') || (this.buffer.charAt(0) == '#' && this.buffer.charAt(1) == '!') ) 
                         {
                             this.aComment = true;
                             continue;
