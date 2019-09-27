@@ -1,0 +1,16 @@
+# simple test hav program
+
+String name = "Ludovico";
+String correct_spelling = "Ludovico";
+
+print("name equals ", name);
+
+if name == correct_spelling:
+    print(name, " is spelled right.");
+endif;
+
+if name != correct_spelling:
+    print(name, " is spelled wrong!");
+endif;
+
+print("Correct spelling is: ", correct_spelling);
