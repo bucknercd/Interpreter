@@ -1,4 +1,8 @@
+unzip Interpreter.zip
+cd Interpreter
 make
-cd ../..
+cd ..
 sudo cp -r Interpreter /etc
-sudo cp Interpreter/hav /usr/bin
+rm -rf Interpreter 
+sudo cp hav /usr/bin
+rm Interpreter.zip
