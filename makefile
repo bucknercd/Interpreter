@@ -28,4 +28,5 @@ hav:
 
 clean:
 	rm -rf bin
+	rm -rf installHavaBol*
 

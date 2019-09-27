@@ -3,6 +3,9 @@ cd Interpreter
 make
 cd ..
 sudo cp -r Interpreter /etc
-rm -rf Interpreter 
 sudo cp hav /usr/bin
-rm Interpreter.zip
+cd ..
+rm -rf installHavaBol
+echo ''
+echo 'The hav interpreter has been installed.'
+echo 'The hav executable has been placed in /usr/bin.'

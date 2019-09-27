@@ -11,3 +11,5 @@ rm Interpreter.zip
 cd Interpreter
 zip -r installHavaBol.zip installHavaBol
 rm -rf installHavaBol
+echo ''
+echo 'The installHavaBol.zip has been created.'
